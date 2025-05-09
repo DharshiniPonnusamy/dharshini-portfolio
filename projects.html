@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - SK Builders</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .projects-section {
+        padding: 8rem 0 4rem;
+      }
+      
+      .projects-section h2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+      }
+      
+      .status-badge {
+        padding: 0.25rem 0.75rem;
+        border-radius: 9999px;
+        font-size: 0.875rem;
+      }
+      
+      .status-completed {
+        background-color: #dcfce7;
+        color: #166534;
+      }
+      
+      .status-ongoing {
+        background-color: #dbeafe;
+        color: #1e40af;
+      }
+      
+      .status-prelaunch {
+        background-color: #fef9c3;
+        color: #854d0e;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hard-hat"><path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z"/><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5"/><path d="M4 15v-3a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v3"/></svg>
+            <span>SK Builders</span>
+          </div>
+          
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <button class="btn-primary">Get Quote</button>
+          </div>
+
+          <button class="menu-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="projects-section">
+        <div class="container">
+          <h2>Engineering Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80" alt="Highway Infrastructure">
+              <div class="project-content">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                  <div>
+                    <span class="category">Infrastructure</span>
+                    <h3>Highway Infrastructure Development</h3>
+                  </div>
+                  <span class="status-badge status-completed">Completed</span>
+                </div>
+                <p>Major highway expansion project with advanced structural engineering</p>
+                <div class="location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Metropolitan Area
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80" alt="Office Complex">
+              <div class="project-content">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                  <div>
+                    <span class="category">Commercial</span>
+                    <h3>Eco-Friendly Office Complex</h3>
+                  </div>
+                  <span class="status-badge status-ongoing">Ongoing</span>
+                </div>
+                <p>LEED-certified commercial building with sustainable design</p>
+                <div class="location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Business District
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=800&q=80" alt="Residential Complex">
+              <div class="project-content">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                  <div>
+                    <span class="category">Residential</span>
+                    <h3>Residential Development</h3>
+                  </div>
+                  <span class="status-badge status-prelaunch">Pre-launch</span>
+                </div>
+                <p>Modern residential complex with earthquake-resistant design</p>
+                <div class="location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Suburban Area
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 SK Builders. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
